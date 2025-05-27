@@ -2,6 +2,7 @@ import argparse
 import re
 from collections import Counter
 
+
 def analyze_file (file_path, top_n=10, encoding='utf-8'):
 
     try:
